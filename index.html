@@ -1,0 +1,44 @@
+<html>
+
+
+
+<h1> this is matematica</h1>
+
+<script>
+
+    let nome = prompt("seu nome")
+    let num1 = Number(prompt("coloque um numero"));
+    let num2 = Number(prompt("coloque um numero"));
+
+    alert(nome + " o resultado da soma: " + (num1 + num2))
+   
+    alert(nome + " o reultado da subtração:" + (num1 - num2))
+   
+    alert(nome + " o resultado da multiplicação:" + (num1 * num2))
+   
+    alert(nome + " o resultado da divisão:" + (num1 / num2))
+
+    let pergunta = prompt(nome + " você quer ver o resultado das exponenciações? sim ou não")
+
+    if (pergunta.toLowerCase() === "sim") {
+        alert(nome + " o resultado das exponenciações:")
+        alert((num1 + num2) ** 2)
+        alert((num1 - num2) ** 2)
+        alert((num1 * num2) ** 2)
+        alert((num1 / num2) ** 2)
+    } else {
+        alert("Ok, não vou mostrar as exponenciações 👍")
+    } 
+    
+</script>
+
+
+
+
+
+
+
+
+
+
+</html>

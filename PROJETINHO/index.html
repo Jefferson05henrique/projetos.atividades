@@ -1,0 +1,28 @@
+<html>
+
+<script>
+    alert("temos sorvetes de: chocolate, morango e baunilha. Eles custam 5 reais cada.");
+
+    let nome = prompt("seu nome")
+    let quantia = Number(prompt("quanto você tem?"));
+    let sabores = prompt("qual sabor você quer?")
+    let sabor1 = "chocolate"
+    let sabor2 = "morango"
+    let sabor3 = "baunilha"
+    let preco = 5
+
+    alert ("Ok " + nome + ", você tem " + quantia + " reais e quer um sorvete de " + sabores);
+    if (sabores == sabor1 || sabores == sabor2 || sabores == sabor3) {
+        if (quantia >= preco) {
+            alert("ok " + nome + ", você comprou um sorvete de " + sabores + " seu troco é " + (quantia - preco) + " reais");
+        } else {
+            alert("desculpe, você não tem dinheiro suficiente para comprar o sorvete.")
+        }
+    } else {
+        alert("desculpe, não temos esse sabor.")
+    }
+       
+</script>
+
+
+</html>
